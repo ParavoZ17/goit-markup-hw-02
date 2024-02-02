@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #fff;
 }
 
 a {
@@ -10,8 +11,6 @@ a {
 ul {
     list-style-type: none; 
 }
-
-
 
 .visually-hidden {
     position: absolute;
@@ -36,11 +35,11 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
     }
 
-    .logo-link .web {
-        color: #4D5AE5;
+    .studio {
+        color: #2E2F42;
     }
       
     .nav-link{
@@ -52,8 +51,24 @@ ul {
     color: #2E2F42;
     }
 
-    address a {
+    .nav-link:hover, .nav-link:focus, .contacts-link:hover, .contacts-link:focus{
+        color: #404BBF;
+    }
+
+    .nav-link:active {
+        text-decoration: underline;
+    }
+
+    /* .current{ */
+        text-decoration: underline;
+        color: #404BBF;
+    }
+
+    .address {
         font-style: normal;
+    }
+
+    .contacts-link {
         font-family: inherit;
         font-size: 16px;
         line-height: 1.5;
@@ -86,6 +101,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
+    cursor: pointer;
+}
+.hero-btn:hover, .hero-btn:focus{
+    background-color: #404BBF;
 }
 
 /* =================================================================================== */
@@ -103,10 +122,8 @@ ul {
 
 .advantages-text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
 }
 
 /* ================================================================================================= */
@@ -161,33 +178,33 @@ ul {
 }
 
 .portfolio-unit-title {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
-
 }
 
     .portfolio-unit-text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
 }
 /* =================================================================================================== */
 /* ======================================================footer======================================= */
 
-footer {
+.footer {
+    background-color: #2E2F42;
+}
+.footer-text {
     color: #F4F4FD;
-    background: #2E2F42;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
-footer .logo-link {
+.footer .studio {
     color: #fff;
 }
 
