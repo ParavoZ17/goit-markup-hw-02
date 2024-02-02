@@ -59,11 +59,6 @@ ul {
         text-decoration: underline;
     }
 
-    /* .current{ */
-        text-decoration: underline;
-        color: #404BBF;
-    }
-
     .address {
         font-style: normal;
     }
